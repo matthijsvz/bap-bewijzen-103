@@ -7,13 +7,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}"/>
-    <title>Mediacollege Amsterdam - @yield('title')</title>
+    <title>Laravel Project BMX - @yield('title')</title>
 </head>
 <body>
 <div class="container">
     <header>
-        <h1>Mediacollege Amsterdam</h1>
+        <h1>Laravel project BMX</h1>
         <h2 class="caps txt-red">@yield('page_title')</h2>
+        <img class="homepagetrick" src="/../../img/xup.jpg" alt="">
     </header>
     @section('navigation')
         NAVIGATION
@@ -24,11 +25,9 @@
         @section('footer')
         <footer>
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-2">Opleidingen</div>
-                <div class="col-xs-12 col-sm-6 col-md-2">Nieuwsbrief</div>
-                <div class="col-xs-12 col-sm-6 col-md-2">Inloggen</div>
+                <div class="col-xs-12 col-sm-6 col-md-2">Media</div>
+                <div class="col-xs-12 col-sm-6 col-md-2">Upload</div>
                 <div class="col-xs-12 col-sm-6 col-md-2">Contact</div>
-                <div class="col-xs-12 col-sm-12 col-md-2">Route</div>
             </div>
         </footer>
     @show

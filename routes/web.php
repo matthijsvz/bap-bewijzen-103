@@ -15,4 +15,8 @@ Route::get('/', function () {
     return view('homepage');
 });
 
+Route::get('/media', 'controller@media') 
+    ->name('media')
+;
+
 

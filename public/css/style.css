@@ -1,5 +1,5 @@
 header, nav, main, footer {
-    background: #cdcdcd;
+    background: gray;
     margin: 10px 0;
 }
 
@@ -15,7 +15,7 @@ header {
 }
 
 header h1 {
-    color: #fff;
+    color: #2e7441;
     text-shadow: 1px 1px 5px #333;
 }
 
@@ -24,7 +24,7 @@ header h1 {
 }
 
 .txt-red {
-    color: #f00;
+    color: rgb(225, 0, 255);
 }
 h2 {
     font-size: 16px;
